@@ -36,3 +36,9 @@ Trabalhando com Rotas
         switch
             faz com que apenas um rota seja chamada
                 sozinha
+
+    fazer uma navegação que não carregue todo o JS
+        import o {Link} do router-dom
+            utiliza ele no lugar do <a>
+            quando mudamos de rota ele mantem os arquivos js sem precisa carregar eles
+            troca o "href" por "to"
