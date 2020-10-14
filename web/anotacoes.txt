@@ -1,0 +1,38 @@
+-------Anotações aula01----------
+importar o css no App.tsx
+quando utilizamos React
+    importamos css por JS
+
+quando eu quero colocar uma variavel
+    {nome_da_variavel}
+tag <main>
+    conteudo principal em html
+
+para colocar um icone no React
+    usar um pacote de terceiros
+        npm install react-icons
+        import {FiArrowRight} from 'react-icons/fi';
+            <FiArrowRight/>
+
+Trabalhando com Rotas
+    React-router-dom
+        lib mais famosa para trablhar com roteamento
+         npm install react-router-dom
+         cria-se um arquivo de Rotas    
+            routes.tsx
+            npm install @types/react-router-dom
+            importa a lib
+            -D
+                dependencia de desenvolvimento
+                ela só fica enquanto desenvolvemos o projeto
+        Exportar o componente
+        Nessa versão precisamos importar o React
+            16
+            Na 17 não precisa mais
+    Router dom não compara as Rotas
+        por isso temos que colocar uma propriedade na raiz
+            exact
+                <Route path="/" exact component={Landing}/>
+        switch
+            faz com que apenas um rota seja chamada
+                sozinha
